@@ -1,0 +1,62 @@
+.news {
+    background-color: $mainGreen;
+  padding: 0 10px 1px 10px;
+
+  text-align: left;
+
+  @mixin atLarge {
+    margin-bottom: 0;
+    padding: 0 1.8125rem 1px 1.8125rem;
+  }
+
+  &--last {
+    margin-bottom: 0;
+    padding-right: 10px;
+  }
+
+&__title {
+     color: $mainBlue;
+          font-size: 1.5rem;
+     font-weight: 500;
+     margin: 0;
+     padding-top: 10px;
+ }
+
+  ul {
+    margin: 0;
+    padding: 0;
+    @mixin clearfix;
+  }
+
+  li {
+
+    list-style: none;
+     line-height: 0.5;
+  }
+  a {
+
+    text-decoration: none;
+    font-weight: 300;
+      font-size: .8rem;
+      color: $mainBlue;
+  }
+  p{
+      font-weight: 300;
+      font-size: 1.125rem;
+
+  }
+    strong{
+
+        font-weight: 700;
+    }
+    input{
+        height: 40px;
+        width: 90%;
+        font-size: 1rem;
+        border: 0;
+        border-radius: 5px;
+        margin-bottom: 10px;
+    }
+
+
+}
